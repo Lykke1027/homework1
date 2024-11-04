@@ -14,15 +14,15 @@ function setup() {
 }
 
 function draw() {
-  background(220);  // 每次繪製前重設背景
+  background("#ffd4ca");  // 每次繪製前重設背景
   
   noFill();  // 不填滿圖形
-  stroke("#8ecae6");  // 線條顏色
-  strokeWeight(3);  // 線條寬度
+  stroke("#F06545");  // 線條顏色
+  strokeWeight(5);  // 線條寬度
 
-  let r_w = 50 + mouseX / 100;  // 計算矩形寬度
-  let bc_w = 50 + mouseX / 100;  // 計算大圓寬度
-  let sc_w = 25 + mouseX / 100;  // 計算小圓寬度
+  let r_w = 60 + mouseX / 50;  // 計算矩形寬度
+  let bc_w = 50 + mouseX / 50;  // 計算大圓寬度
+  let sc_w = 25 + mouseX / 0;  // 計算小圓寬度
 
   // 繪製背景的圖形矩陣
   for (let j = 0; j < 25; j++) {
